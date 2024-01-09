@@ -8338,6 +8338,18 @@ textarea.form-control {
     font-size: 15px;
     color: #8c8c8c; }
 
+.scroll-icon{
+  margin-top: -8vw;
+  width: 100%;
+  text-align: center;
+}
+    
+    
+.scroll-icon> img{
+  width: 50px;
+    
+}
+
 .block-6 {
   margin-bottom: 40px;
   display: block;
@@ -8849,4 +8861,18 @@ textarea.form-control {
   .block-3 .image{
     background-position:initial;
   }
+  .profile{
+    text-align: center;
+  }
+  .contact-info{
+    text-align: center;
+  }
+  .scroll-icon{
+    margin-top: -40vw;
+    margin-bottom: 80vw;
+    width: 100%;
+    text-align: center;
+  }
+
 }
+
