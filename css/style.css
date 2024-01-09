@@ -377,6 +377,7 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+  
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -491,6 +492,7 @@ pre {
     .container {
       max-width: 540px; } }
   @media (min-width: 768px) {
+    
     .container {
       max-width: 720px; } }
   @media (min-width: 992px) {
@@ -506,6 +508,7 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+
 
 .row {
   display: -webkit-box;
@@ -6321,6 +6324,7 @@ button.bg-dark:focus {
 .p-5 {
   padding: 3rem !important; }
 
+
 .pt-5,
 .py-5 {
   padding-top: 3rem !important; }
@@ -7554,7 +7558,7 @@ header {
   header .colorlib-navbar-brand {
     float: left; }
     header .colorlib-navbar-brand .colorlib-logo {
-      font-size: 20px;
+      font-size: 1.5vw;
       text-transform: uppercase;
       color: #fff;
       font-weight: 400;
@@ -7769,7 +7773,7 @@ header {
           font-size: 100px;
           color: rgba(255, 255, 255, 0.08); }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
-          font-size: 55px;
+          font-size: 4vw;
           color: #fff;
           line-height: 1.2;
           font-weight: 700;
@@ -7779,7 +7783,7 @@ header {
           position: relative; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
-              font-size: 40px; } }
+              font-size: 6vw; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
           font-size: 20px;
           line-height: 1.5;
@@ -8136,6 +8140,13 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.9); }
   .ftco-footer .ftco-footer-widget .email a {
     color: #fff; }
+
+  @media (max-width: 767.98px){
+    .ftco-footer .ftco-footer-widget .email a{
+      font-size: 4vw;
+    }
+  }
+
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: 700; }
   .ftco-footer p {
@@ -8297,6 +8308,7 @@ textarea.form-control {
   display: block; }
 
 @media (min-width: 768px) {
+  
   .blog-entry {
     margin-bottom: 30px; } }
 
@@ -8555,7 +8567,7 @@ textarea.form-control {
   margin-bottom: 0; }
 
 .block-3 .image {
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
@@ -8810,3 +8822,31 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+@media (max-width: 767.98px){
+  header .colorlib-navbar-brand .colorlib-logo{
+    font-size: 3vw;
+  }
+  .colorlib-nav-toggle{
+    float: none;
+    padding-left: 78vw;
+  }
+  .about-section h2{
+    text-align: center;
+  }
+  .text-sobre{
+    text-align: justify;
+    margin: -4vw;
+    padding: 0;
+  }
+  .ftco-footer-social{
+    text-align: center;
+  }
+  .text-footer{
+    text-align: center;
+  }
+  .block-3 .image{
+    background-position:initial;
+  }
+}
